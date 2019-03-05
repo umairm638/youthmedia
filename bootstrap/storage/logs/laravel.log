@@ -1,0 +1,22 @@
+[2019-01-29 15:27:22] production.ERROR: exception 'InvalidArgumentException' with message 'The "" directory does not exist.' in /home/root100/public_html/youthscreen/vendor/symfony/finder/Finder.php:546
+Stack trace:
+#0 /home/root100/public_html/youthscreen/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(87): Symfony\Component\Finder\Finder->in(false)
+#1 /home/root100/public_html/youthscreen/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(64): Illuminate\Foundation\Bootstrap\LoadConfiguration->getConfigurationFiles(Object(Illuminate\Foundation\Application))
+#2 /home/root100/public_html/youthscreen/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(39): Illuminate\Foundation\Bootstrap\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\Foundation\Application), Object(Illuminate\Config\Repository))
+#3 /home/root100/public_html/youthscreen/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(208): Illuminate\Foundation\Bootstrap\LoadConfiguration->bootstrap(Object(Illuminate\Foundation\Application))
+#4 /home/root100/public_html/youthscreen/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(162): Illuminate\Foundation\Application->bootstrapWith(Array)
+#5 /home/root100/public_html/youthscreen/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(146): Illuminate\Foundation\Http\Kernel->bootstrap()
+#6 /home/root100/public_html/youthscreen/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(116): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#7 /home/root100/public_html/youthscreen/index.php(54): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#8 {main}  
+[2019-01-29 15:27:25] production.ERROR: exception 'InvalidArgumentException' with message 'The "" directory does not exist.' in /home/root100/public_html/youthscreen/vendor/symfony/finder/Finder.php:546
+Stack trace:
+#0 /home/root100/public_html/youthscreen/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(87): Symfony\Component\Finder\Finder->in(false)
+#1 /home/root100/public_html/youthscreen/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(64): Illuminate\Foundation\Bootstrap\LoadConfiguration->getConfigurationFiles(Object(Illuminate\Foundation\Application))
+#2 /home/root100/public_html/youthscreen/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(39): Illuminate\Foundation\Bootstrap\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\Foundation\Application), Object(Illuminate\Config\Repository))
+#3 /home/root100/public_html/youthscreen/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(208): Illuminate\Foundation\Bootstrap\LoadConfiguration->bootstrap(Object(Illuminate\Foundation\Application))
+#4 /home/root100/public_html/youthscreen/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(162): Illuminate\Foundation\Application->bootstrapWith(Array)
+#5 /home/root100/public_html/youthscreen/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(146): Illuminate\Foundation\Http\Kernel->bootstrap()
+#6 /home/root100/public_html/youthscreen/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(116): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#7 /home/root100/public_html/youthscreen/index.php(54): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#8 {main}  

@@ -1,0 +1,82 @@
+.comment-replyto-margin {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.cancel-comment-reply{
+    float: right;
+}
+.main-view .nav>li>a>img {
+    max-width: 100%;
+    max-height: 143px;
+    width:100%;
+}
+.main-view .nav-tabs{
+    border-bottom: 0;
+}
+.main-view ul.nav > li > a {
+    padding: 0;
+    border: 0;
+}
+.main-view ul.nav > li {
+    position: relative;
+    margin-bottom: 18px;
+}
+.main-view ul.nav > li:last-child {margin-bottom: 0;}
+.main-view ul.nav > li span{
+    background: rgb(204, 24, 30);
+    color: #fff;
+    bottom: 0;
+    width: 100%;
+    padding: 2px 10px 6px;
+    display: inline-block;
+    position: relative;
+    top: -1px;
+    font-size: 13px;
+}
+.message .alert {
+    margin-bottom: 0;
+    margin-top: 34px;
+}
+.toc-ul {
+    list-style: square;
+    margin-left: 15px;
+}
+.subscribe-form input[type="text"] {
+    border: 1px solid #b7b7b7;
+    height: 40px;
+    padding-left: 10px;
+    width: 260px;
+}
+.video-content > h4 {
+    line-height: 1.5em;
+    height: 3em;
+    overflow: hidden;
+}
+
+.custom-alert {
+    position: fixed;
+    left: 10px;
+    z-index: 9999;
+    bottom: 5px;
+    min-width: 280px;
+}
+.custom-alert+.custom-alert {
+    bottom: 62px;
+}
+.custom-alert+.custom-alert+.custom-alert {
+    bottom: 119px;
+}
+.custom-alert+.custom-alert+.custom-alert+.custom-alert {
+    bottom: 176px;
+}
+.custom-alert+.custom-alert+.custom-alert+.custom-alert+.custom-alert {
+    bottom: 233px;
+}
+.custom-alert i{margin-right: 10px;}
+.custom-alert button {
+    font-size: 14px;
+    margin-left: 38px;
+    color: #111;
+    opacity: 1 !important;
+    margin-top: 2px;
+}
